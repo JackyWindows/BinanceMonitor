@@ -19,7 +19,7 @@ st.markdown("""
 """)
 
 # 内置 OpenAI API 配置
-OPENAI_API_KEY = ""  # 替换为您的 API key
+OPENAI_API_KEY = "sk-C9b9fUXzuqQzW7Biq5NdFK0v6BrgicfsjFurqDpz2Ilul6O1"  # 替换为您的 API key
 client = OpenAI(
     api_key=OPENAI_API_KEY,
     base_url="https://api.tu-zi.com/v1"
